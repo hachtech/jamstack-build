@@ -5,11 +5,14 @@
   "main": "vibe.js",
   "scripts": {
     "build": "eleventy",
-    "start":"eleventy --serve"
+    "start": "eleventy --serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "i": "^0.3.6"
   }
 }
